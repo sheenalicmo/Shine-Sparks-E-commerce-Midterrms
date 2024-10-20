@@ -1,0 +1,264 @@
+.navbar-logo {
+  position: absolute;
+  width: 250px;
+  height: auto;
+  top: -90px;
+}
+
+.navbar {
+  background-color: #191970 !important;
+}
+
+.navbar-nav {
+  position: relative;
+  font-weight: bold;
+  font-family: "Playfair Display", serif;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff !important;
+  right: 100px;
+}
+
+.navbar-nav .nav-link:hover {
+  color:#FFEF00 !important;
+  right: 100px;
+}
+
+.navbar-nav .btn {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color:#191970;
+  border: 3px solid #FFEF00;
+  background-color: #FFEF00;
+  margin: 5px 5px;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+
+.navbar-nav .btn:hover {
+  background-color:#191970;
+  color: #FFEF00;
+}
+
+.navbar-nav .nav-link-a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+.content {
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-header {
+  position: relative;
+  width: 100%;
+  height: 623px;
+  color: white;
+  overflow: hidden;
+}
+
+.header-content {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+.header-content h1 {
+  font-size: 2.5rem;
+  font-family: "Playfair Display", serif;
+  color: #191970;
+  background-color: rgb(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.highlight{
+  color: #ffee00e0;
+  background-color:rgb(25, 25, 112);
+
+}
+
+.header-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.shop {
+  position: relative;
+  font-family: "Playfair Display", serif;
+  font-weight: bolder;
+  color:#191970;
+  background-color: #FFEF00;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  top: 40px;
+  border: 2px solid #191970 ;
+}
+
+.shop:hover{
+  background-color:#191970;
+  color: #FFEF00;
+}
+
+footer {
+  background-color:#191970;
+  color: #ffffff;
+  padding: 50px 0;
+}
+
+footer .text-uppercase {
+  font-weight: bold;
+  color: #FFEF00;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .list-unstyled {
+  padding-left: 0;
+}
+
+footer .list-unstyled li {
+  margin-bottom: 10px;
+}
+
+footer .bi {
+  margin-right: 10px;
+}
+
+footer .bi-facebook,
+footer .bi-twitter,
+footer .bi-instagram,
+footer .bi-linkedin {
+  font-size: 24px;
+}
+
+
+
+
+
+
+
+
+.sign-in-container {
+  background-color:#FFEF00;
+  padding: 30px;
+  margin: 53px 53px 30px 890px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  left: 500px;
+
+}
+
+.sign-in-container h2 {
+  margin-bottom: 20px;
+}
+
+.sign-in-container input[type="email"],
+.sign-in-container input[type="password"] { 
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.sign-in-container .sign-in-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #191970;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sign-in-container .sign-in-btn:hover {
+  background-color: #191970;
+}
+
+.sign-in-container .or {
+  margin: 15px 0;
+  font-size: 16px;
+  color: #888;
+}
+
+.social-btn {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.social-btn img {
+  width: 24px;
+  margin-right: 10px;
+}
+
+.btn-google {
+  background-color: #191970;
+  color: white;
+}
+
+.btn-facebook {
+  background-color: #191970;
+  color: white;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    width: 250px;
+    top: -90px;
+  }
+  
+  .header-content h1 {
+    font-size: 40px;
+  }
+
+  footer .col-lg-4 {
+    text-align: center;
+  }
+  footer .d-flex {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header-content h1 {
+      font-size: 10px;
+  }
+}
